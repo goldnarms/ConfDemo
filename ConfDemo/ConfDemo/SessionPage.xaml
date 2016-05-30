@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:ListDataPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:p="clr-namespace:Xamarin.Forms.Pages;assembly=Xamarin.Forms.Pages"
+		StyleClass="Events"
+         DetailTemplate="{StaticResource SessionDetailTemplate}" 
+		x:Class="ConfDemo.SessionPage">
+    <p:DataPage.DataSource>
+        <p:JsonDataSource Source='[
+					{
+      "$id": "15",
+      "id": 17,
+      "title": "KEYNOTE: Towards the Open Source Economy",
+      "hideTime": false,
+      "startTime": "2014-10-28T14:00:00",
+      "endTime": "2014-10-28T14:50:00",
+      "abstract": "Open, collaborative development promises to revolutionize the way the economy operates by shifting the focus from profit-making proprietary production to meaning-making participatory production. Access to prior work and crowd-based contributions allow companies to innovate faster and a greater number of producers to foster a broader and more diverse ecosystem.",
+      "description": "We also can (re)shape the artifacts we use and in this way shape our own experiences. What are the mechanisms by which this happens in practice – in our lives and in our work? What began a couple of decades ago as the open source movement is now extending into open source hardware, open product development, and open enterprise. How will these collaborative trends lead to a more efficient, satisfying and meaningful system of production? Do we have the courage to take the opportunity to disrupt manufacturing, stabilize economies, restore ecology, unleash productivity everywhere and leapfrog through old problems while leaving nobody behind?",
+      "evalUrl": null,
+      "conferenceId": 5,
+      "roomId": 13,
+"picture_absolute": "https://iconblobstorage.blob.core.windows.net/images/fbecc42e-02f4-48cc-883d-96754399a0ac.jpg",
+},
+    {
+      "$id": "17",
+      "id": 18,
+      "title": "KEYNOTE: Innovation Begins at Home",
+      "hideTime": false,
+      "startTime": "2014-10-29T09:10:00",
+      "endTime": "2014-10-29T10:00:00",
+      "abstract": "Andy Stanford-Clark, IBMs Chief Technologist for Smarter Energy, will explain how the Internet of Things converges with his hobby of home automation and his passion for energy saving.",
+      "description": "This convergence has led to projects that have helped alleviate energy poverty in social housing, and that are providing new ideas and technologies for the future smart energy grid that will be built from instrumented, interconnected, and intelligent devices.",
+      "evalUrl": null,
+      "conferenceId": 5,
+      "roomId": 12,
+      "picture_absolute": "https://iconblobstorage.blob.core.windows.net/images/ef0b73a9-9985-4770-8c96-7791276fb3e0.jpg",
+    },
+    {
+      "$id": "19",
+      "id": 64,
+      "title": "Eclipse Committer Bootcamp",
+      "hideTime": false,
+      "startTime": "2014-10-28T09:00:00",
+      "endTime": "2014-10-28T12:00:00",
+      "abstract": "Are you a new committer or project lead for an Eclipse project? Are you thinking about proposing a new open source project at Eclipse? In this tutorial, Eclipse Foundation staff members will walk you through the information that you need to know to be an effective open source project committer at Eclipse. The discussion includes an overview of the Eclipse Development Process, the Intellectual Property Due Diligence Process, and the Tools and IT Infrastructure available to Eclipse projects.",
+      "description": "Other topics include:\r\n\r\nEclipse project structure\r\nUsing the Project Management Infrastructure (PMI)\r\nRole of the Project Management Committee (PMC)\r\nWhy IP Management is important\r\nAssembling your initial contribution\r\nManaging third-party dependencies (pre-req, workswith, exempt)\r\nManaging your IP log (automated IP Log, download scan tool, etc.)\r\nCreating and managing Git repositories\r\nSocial coding: Eclipse projects at GitHub\r\nAccepting contributions/Contributor License Agreements (CLAs)\r\nCommitter and project lead elections\r\nUsing the download and archive servers\r\nUnderstanding project metrics\r\nBuilding your project using the Common Build Infrastructure (CBI)\r\nGrowing your projects community\r\nWho to ask for help.\r\nNote that there is no hands on element for this session; but be prepared to participate in the discussion.",
+      "evalUrl": null,
+      "conferenceId": 5,
+      "roomId": 13,
+      "picture_absolute": "https://iconblobstorage.blob.core.windows.net/images/79c686e0-f267-44be-ae1f-cd224b3dcfc5.jpg",
+    },
+    {
+      "$id": "21",
+      "id": 65,
+      "title": "What every Eclipse developer should know about Eclipse 4 (E4)",
+      "hideTime": false,
+      "startTime": "2014-10-28T09:00:00",
+      "endTime": "2014-10-28T12:00:00",
+      "abstract": "This tutorial will give you a jumpstart on the new concepts of the Eclipse 4 Application Platform. If you have previous experience developing with RCP 3.x but limited or no experience with e4, this tutorial is designed for you. ",
+      "description": "Using a sample RCP application, we introduce the most important features of the new platform, such as the Application Model, Dependency Injection and the new Programming Model. We complete the introduction with an overview of the most important services available, such as the selection or preference services. All topics include hands-on examples that we’ll work through together. Finally, we demonstrate how innovations from Eclipse 4 can be integrated into existing applications based on Eclipse 3.x and introduce possible migration paths.\r\nThis session is a revised submission of the EclipseCon North America tutorial, which received excellent feedback and was well attended. Part of the content is also available as a tutorial article series:",
+      "evalUrl": null,
+      "conferenceId": 5,
+      "roomId": 12,
+					      "picture_absolute": "https://iconblobstorage.blob.core.windows.net/images/f4a16b3a-7d4d-43e3-9901-4d89e5685803.jpg",
+   
+    },
+    {
+      "$id": "23",
+      "id": 66,
+      "title": "Lambdas and Streams:Functional Coding With Java SE 8",
+      "hideTime": false,
+      "startTime": "2014-10-28T09:00:00",
+      "endTime": "2014-10-28T12:00:00",
+      "abstract": "The big new features in Java SE 8 are the introduction of Lambda expressions to the language syntax and the Streams API in the standard class libraries. When combined these introduce a functional style of programming to Java for the first time. This tutorial will take developers who already know Java through these new features using the following structure:",
+      "description": "Introduction:\r\nWhy does Java need Lambda expressions?\r\nWhat are the key differences between imperative and functional programming  \r\nLambda expression basics\r\nSyntax of Lambda expressions including method and constructor references\r\nStreams API basics\r\nWhat is a Stream and how do you use it\r\nFunctional interfaces\r\nStreams and Lambda expressions\r\nUse of Optionals with streams\r\nReal world streams usage\r\nVarious examples of the use of the streams API will be discussed to show how they are used in real code and how complex tasks can be written very succinctly.\r\nSome thoughts on the way you need to change your thinking in order to use streams effectively (use of infinite streams, etc).\r\nSupport for Lambdas and streams development with Eclipse\r\nConclusions\r\nWrap up and places to get more information.",
+      "evalUrl": null,
+      "conferenceId": 5,
+      "roomId": 14,
+	"picture_absolute": "https://iconblobstorage.blob.core.windows.net/images/0a1aed0c-ad4f-4847-9fc8-30ed73d4efab.jpg",
+    }
+  ]' /></p:DataPage.DataSource>
+		<p:DataPage.DefaultItemTemplate>
+		<DataTemplate>
+		<TextCell Text="{Binding Value[title]}" Detail="{Binding Value[abstract]}"  />
+		</DataTemplate>
+	</p:DataPage.DefaultItemTemplate>
+</p:ListDataPage>

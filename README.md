@@ -1,6 +1,6 @@
 # ConfDemo
-Xamarin forms demo for NNUG Meetup
+Xamarin.Forms demo
 
 ## Prerequisites
-To use Xamarin Datapages and Themes, you need to be on the Alpha channel.
+To use Xamarin.Forms.Themes, you need to be check off Pre-release packages in Nuget.
 
